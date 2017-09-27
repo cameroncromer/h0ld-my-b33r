@@ -1,0 +1,80 @@
+<!-- HACKSU HACKATHON: TRAINER DILEMMA -->
+<!-- September 26, 2017 -->
+<!-- Stephan Young -->
+<!--  -->
+<!-- [insert name here] -->
+<!-- [insert name here] -->
+<!-- [insert name here] -->
+
+
+<!--Pics:
+poke ball: https://vignette.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png
+ash: http://satoshipedia.altervista.org/wp-content/uploads/2015/12/ash_ketchum-467.png
+oak: https://vignette.wikia.nocookie.net/pokemon/images/8/84/Professor_Oak_XY.png
+bulbasaur: http://vignette3.wikia.nocookie.net/pokemon-planet/images/5/5b/Bulbasaur_by_elfaceitoso.png
+charmander: http://vectorlogo4u.com/wp-content/uploads/2016/08/chramander-vector-high-res.png
+squirtle: http://static.pokemonpets.com/images/monsters-images-800-800/7-Squirtle.png
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <title>Trainer Dilemma</title>
+</head>
+
+<script language="javascript">
+
+    function p1change (){
+        document.getElementById('image').src = 'http://vignette3.wikia.nocookie.net/pokemon-planet/images/5/5b/Bulbasaur_by_elfaceitoso.png'
+    };
+    function p2change (){
+        document.getElementById('image').src = 'http://static.pokemonpets.com/images/monsters-images-800-800/7-Squirtle.png'
+    };
+    function p3change (){
+        document.getElementById('image').src = 'http://vectorlogo4u.com/wp-content/uploads/2016/08/chramander-vector-high-res.png'
+    };
+
+
+</script>
+<body>
+
+
+<h1>CHOOSE THAT POKEMON!</h1>
+<img src="https://vignette.wikia.nocookie.net/pokemon/images/8/84/Professor_Oak_XY.png"><br>
+This is Professor Oak.
+<br>
+There are 3 POKeMON here!
+<br>
+<span style="color: green">Bulbasaur</span>, <span style="color: red">Charmander</span>, or <span style="color: blue">Squirtle</span>? Just tap on the one that you want!
+<br>
+<button id="b1" onclick="p1change()"><h4><b>Pokemon 1</b></h4></button>
+<button id="b2" onclick="p2change()"><h4><b>Pokemon 2</b></h4></button>
+<button id="b3" onclick="p3change()"><h4><b>Pokemon 3</b></h4></button>
+<img id="image" src="http://store.edgecast.steamstatic.com/public/images/game/game_highlight_image_spacer.gif" width="150" height="150">
+
+<style>button
+{
+  border-radius: 50%;
+  background: url('https://vignette.wikia.nocookie.net/youtubepoop/images/4/4c/Pokeball.png');
+  background-position:center;
+  background-size:100px;
+  width: 100px;
+  height: 100px;
+  border: solid 1px somecolor;
+  color: black;
+  padding-top: 80px;
+}
+button:hover
+{
+  opacity: 0.5;
+  color: gray;
+}
+body {
+  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Pokemon-Pikachu-Backgrounds-Wallpapers.jpg');
+}
+
+</style>
+
+</body>
+</html>
